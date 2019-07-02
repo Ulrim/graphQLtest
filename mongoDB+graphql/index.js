@@ -6,7 +6,7 @@ import schema from "./schema";
 const app = express();
 const Port = 3000;
 const uri =
-  "mongodb+srv://new_user:wjdtjr321@ulrim-test-glqby.gcp.mongodb.net/gql_db?retryWrites=true&w=majority";
+  "uri를 추가해주세요.";
 
 mongoose.Promise = global.Promise;
 mongoose.connect(uri, { useNewUrlParser: true });
