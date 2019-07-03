@@ -6,7 +6,7 @@ import cors from 'cors';
 
 // mongodb 설정
 const dbName = "test";
-const uri = `mongodb+srv://user_01:wjdtjr321@ulrim-qjcii.gcp.mongodb.net/${dbName}?retryWrites=true&w=majority`
+const uri = ``
 mongoose.Promise = global.Promise;
 mongoose.connect(uri, { useNewUrlParser: true });
 
